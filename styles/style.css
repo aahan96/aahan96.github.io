@@ -80,6 +80,7 @@ body {margin: 0;}
     line-height: 1.7em;
     color: white;
     font-size: 14px;
+    height: 75%;
 }
 
 #info2 {
@@ -95,6 +96,7 @@ body {margin: 0;}
     line-height: 1.7em;
     color: white;
     font-size: 14px;
+    height: 75%;
 }
 
 .indent {
