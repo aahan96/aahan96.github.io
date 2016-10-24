@@ -31,18 +31,6 @@ body {margin: 0;}
     color: black;
 }
 
-.resume {
-    color: white;
-}
-
-.resume:hover {
-    color: orange;
-    font-size: 16px;
-}
-
-.resume::visited {
-    text-decoration: none;
-}
 
 #footer {
 	width: 100%;
@@ -68,6 +56,7 @@ body {margin: 0;}
 }
 
 #info {
+    border-style: double;
     display: inline-block;
     width: 48%;
     padding-left: 10px;
@@ -76,13 +65,14 @@ body {margin: 0;}
     padding-bottom: 10px;
     margin-left: 2%;
     font-family: "Courier";
-    background-color: black;
+    background-color: #F8F8F8;
     line-height: 1.7em;
-    color: white;
+    color: black;
     font-size: 14px;
 }
 
 #info2 {
+    border-style: double;
     width: 48%;
     display: inline-block;
     padding-left: 10px;
@@ -91,27 +81,27 @@ body {margin: 0;}
     padding-bottom: 10px;
     margin-right: 0;
     font-family: "Courier";
-    background-color: black;
+    background-color: F8F8F8;
     line-height: 1.7em;
-    color: white;
+    color: black;
     font-size: 14px;
 }
 
 .indent {
-    background-color: black;
+    background-color: F8F8F8;
     padding-left: 30px;
 }
 
 .res_word {
-    color: limegreen;
+    color: blue;
 }
 
 .var_word {
-    color: dodgerblue;
+    color: #B2605D;
 }
 
 .str_word {
-    color: red;
+    color: black;
 }
 
 .nodisplay {
@@ -137,4 +127,18 @@ a:visited {
 a:hover {
     color: black;
     text-decoration: none;
+}
+
+.resume {
+    color: black;
+}
+
+.resume:hover {
+    color: orange;
+    font-size: 16px;
+}
+
+.resume::visited {
+    text-decoration: none;
+    color: black;
 }
